@@ -1,10 +1,13 @@
 .testimonial {
 	text-align: center;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: $fifth-color;
 }
 
 .testimonials {
-  background: $primary-color;
-
+	@include gradient($primary-color, $secondary-color);
 }
 
 .testimonial__authors {

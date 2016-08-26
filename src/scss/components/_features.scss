@@ -1,6 +1,5 @@
 .features {
 	display: flex;
-  background: $fifth-color;
 
 	@include tablet {
 		flex-direction: column;
@@ -14,6 +13,7 @@
 	.feature__column {
 		text-align: center;
 		padding: 50px;
+		background: $fifth-color;
 
 		@include tablet {
 			display: flex;

@@ -1,39 +1,16 @@
 
 .twittergrid {
   display: flex;
-  // margin-left: 8%;
+  margin-left: 12%;
+  padding-top: 20px;
 }
 
 .twittergrid__element {
-  flex: 6;
+  flex: 2;
 }
 
-// /* With gutters */
-// .twittergrid--gutters {
-//   margin: -1em 0 0 -1em;
-// }
-// .twittergrid--gutters > .Grid-cell {
-//   padding: 1em 0 0 1em;
-// }
-//
-// /* Alignment per row */
-// .twittergrid--top {
-//   align-items: flex-start;
-// }
-// .twittergrid--bottom {
-//   align-items: flex-end;
-// }
-// .twittergrid--center {
-//   align-items: center;
-// }
-//
-// /* Alignment per cell */
-// .twittergrid__element--top {
-//   align-self: flex-start;
-// }
-// .twittergrid__element--bottom {
-//   align-self: flex-end;
-// }
-// .twittergrid__element--center {
-//   align-self: center;
-// }
+.signup__textinput {
+  height: 30px;
+  width: 200px;
+
+}

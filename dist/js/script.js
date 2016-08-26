@@ -1,5 +1,2 @@
-$( "#clickme" ).click(function() {
-  $( "#ipad" ).fadeIn( "slow", function() {
-    // Animation complete
-  });
-});
+//$('#ipad').hide();
+$( "#ipad" ).fadeIn(600);
