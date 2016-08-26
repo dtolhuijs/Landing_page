@@ -1,3 +1,2 @@
-$("img").click(function(){
-    $("#ipad").fadeIn();
-});
+//$('#ipad').hide();
+$( "#ipad" ).fadeIn(600);
