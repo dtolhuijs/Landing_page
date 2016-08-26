@@ -1,5 +1,3 @@
-$( "#clickme" ).click(function() {
-  $( "#ipad" ).fadeIn( "slow", function() {
-    // Animation complete
-  });
+$("img").click(function(){
+    $("#ipad").fadeIn();
 });
