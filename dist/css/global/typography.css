@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "MiloWeb";
+  src: url("../fonts/milo/MiloWeb.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Regular";
+  src: url("../fonts/milo/MiloWeb.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Text";
+  src: url("../fonts/milo/MiloWeb-Text.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Medium";
+  src: url("../fonts/milo/MiloWeb-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Light";
+  src: url("../fonts/milo/MiloWeb-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-LightItalic";
+  src: url("../fonts/milo/MiloWeb-LightIta.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-ExtraLight";
+  src: url("../fonts/milo/MiloWeb-Extralight.woff") format("woff"); }

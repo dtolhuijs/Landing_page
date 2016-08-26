@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.header {
+  @include gradient($primary-color, $secondary-color);
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header__nav {
+    list-style-type: none;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    li:nth-child(1) {
+      float: left;
+    }
+
+    li {
+      display: inline-block;
+      float: right;
+      margin: 20px
+    }
+  }
+  &__body {
+		text-align: center;
+	}
+}

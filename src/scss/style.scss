@@ -1,0 +1,16 @@
+//global
+// @import 'global/reset';
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/typography';
+@import 'global/responsive';
+
+//components
+@import 'components/header';
+@import 'components/buttons';
+@import 'components/intro';
+@import 'components/features';
+@import 'components/testimonials';
+@import 'components/mission';
+@import 'components/grid';
+@import 'components/footer';

@@ -1,0 +1,14 @@
+.footer {
+  @include gradient($primary-color, $secondary-color);
+
+padding-top: 20px;
+margin-top: 20px;
+}
+
+.footer__nav {
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+}

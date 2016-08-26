@@ -1,0 +1,28 @@
+.features {
+	display: flex;
+  background: $fifth-color;
+
+	@include tablet {
+		flex-direction: column;
+		text-align: left;
+	}
+
+	@include mobile {
+		display: block;
+	}
+
+	.feature__column {
+		text-align: center;
+		padding: 50px;
+
+		@include tablet {
+			display: flex;
+			align-items: center;
+			text-align: left;
+
+			article {
+				margin-left: 50px;
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+// colors
+$primary-color: #50FFB1;
+$secondary-color: #23F0C7;
+$tertiary-color: #FF3C38;
+$fourth-color: #5DFDCB;
+$fifth-color: #FFFFFF;
+$text-color: #333;
+
+$primary-gradient: linear-gradient(#{$primary-color}, #{$secondary-color});
+
+// fonts
+$primary-font: 'Helvetica', 'Arial', sans-serif;

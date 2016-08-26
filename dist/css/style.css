@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "MiloWeb";
+  src: url("../fonts/milo/MiloWeb.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Regular";
+  src: url("../fonts/milo/MiloWeb.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Text";
+  src: url("../fonts/milo/MiloWeb-Text.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Medium";
+  src: url("../fonts/milo/MiloWeb-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-Light";
+  src: url("../fonts/milo/MiloWeb-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-LightItalic";
+  src: url("../fonts/milo/MiloWeb-LightIta.woff") format("woff"); }
+
+@font-face {
+  font-family: "MiloWeb-ExtraLight";
+  src: url("../fonts/milo/MiloWeb-Extralight.woff") format("woff"); }
+
+body {
+  margin: 0; }
+
+.header {
+  background: #50FFB1;
+  background: linear-gradient(#50FFB1, #23F0C7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header .header__nav {
+    list-style-type: none;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .header .header__nav li:nth-child(1) {
+      float: left; }
+    .header .header__nav li {
+      display: inline-block;
+      float: right;
+      margin: 20px; }
+  .header__body {
+    text-align: center; }
+
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  text-align: center; }
+
+.btn--header {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+  border: 1px solid #fff;
+  border-radius: 40px; }
+
+.intro {
+  text-align: center; }
+
+.features {
+  display: flex;
+  background: #FFFFFF; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .features {
+      flex-direction: column;
+      text-align: left; } }
+  @media (max-width: 767px) {
+    .features {
+      display: block; } }
+  .features .feature__column {
+    text-align: center;
+    padding: 50px; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .features .feature__column {
+        display: flex;
+        align-items: center;
+        text-align: left; }
+        .features .feature__column article {
+          margin-left: 50px; } }
+
+.testimonial {
+  text-align: center; }
+
+.testimonials {
+  background: #50FFB1; }
+
+.testimonial__authors {
+  list-style-type: none; }
+  .testimonial__authors li {
+    display: inline-block;
+    margin: 5px; }
+
+.mission {
+  text-align: center; }
+
+.signup {
+  text-align: center; }
+
+.twittergrid {
+  display: flex; }
+
+.twittergrid__element {
+  flex: 6; }
+
+.footer {
+  background: #50FFB1;
+  background: linear-gradient(#50FFB1, #23F0C7);
+  padding-top: 20px;
+  margin-top: 20px; }
+
+.footer__nav li {
+  list-style: none;
+  display: inline-block; }

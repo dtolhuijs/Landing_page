@@ -1,0 +1,17 @@
+.testimonial {
+	text-align: center;
+}
+
+.testimonials {
+  background: $primary-color;
+
+}
+
+.testimonial__authors {
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    margin: 5px;
+  }
+}
