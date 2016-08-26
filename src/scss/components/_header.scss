@@ -11,10 +11,10 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  color: $fifth-color;
 
   .header__nav {
     list-style-type: none;
-    padding: 50px;
     position: absolute;
     top: 0;
     width: 100%;

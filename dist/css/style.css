@@ -36,10 +36,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em; }
+  font-size: 2em;
+  color: #FFFFFF; }
   .header .header__nav {
     list-style-type: none;
-    padding: 50px;
     position: absolute;
     top: 0;
     width: 100%;
@@ -95,12 +95,14 @@ body {
 
 .testimonial {
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #FFFFFF; }
 
 .testimonials {
   background: #6849A7;
-  background: linear-gradient(#6849A7, #4179C4);
-  height: 350px; }
+  background: linear-gradient(#6849A7, #4179C4); }
 
 .testimonial__authors {
   list-style-type: none; }
@@ -109,16 +111,25 @@ body {
     margin: 5px; }
 
 .mission {
-  text-align: center; }
+  text-align: center;
+  padding: 30px;
+  line-height: 20px;
+  background: #F4F5F7; }
 
 .signup {
   text-align: center; }
 
 .twittergrid {
-  display: flex; }
+  display: flex;
+  margin-left: 12%;
+  padding-top: 20px; }
 
 .twittergrid__element {
-  flex: 6; }
+  flex: 2; }
+
+.signup__textinput {
+  height: 30px;
+  width: 200px; }
 
 .footer {
   background: #6849A7;
@@ -127,5 +138,4 @@ body {
   margin-top: 20px; }
 
 .footer__nav li {
-  list-style: none;
-  display: inline-block; }
+  list-style: none; }
