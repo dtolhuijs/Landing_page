@@ -1,2 +1,7 @@
 //$('#ipad').hide();
-$( "#ipad" ).fadeIn(600);
+//$( "#ipad" ).fadeIn(1000);
+//$( document ).scroll(function() {
+$( "#ipad" ).slideDown( "slow", function(){
+    // Animation complete.
+});
+//});
